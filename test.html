@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FastRbx - Покупка робуксов</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+        
+        header {
+            background: #007bff;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+            position: sticky;
+            top: 0;
+            transition: all 0.3s ease;
+        }
+        
+        header nav ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+            margin: 0;
+        }
+        
+        header nav a {
+            color: white;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+        
+        header nav a:hover {
+            color: #ff9800;
+        }
+        
+        #hero {
+            background: linear-gradient(135deg, #007bff, #0056b3);
+            color: white;
+            text-align: center;
+            padding: 4rem 1rem;
+        }
+        
+        #hero a {
+            display: inline-block;
+            background: #ff9800;
+            color: white;
+            padding: 0.8rem 1.5rem;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background 0.3s ease;
+        }
+        
+        #hero a:hover {
+            background: #e67e00;
+        }
+        
+        section {
+            padding: 2rem;
+        }
+        
+        .price-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1rem;
+        }
+        
+        .price-card {
+            background: white;
+            padding: 1.5rem;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            text-align: center;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        
+        .price-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        
+        .price-card a {
+            display: inline-block;
+            background: #007bff;
+            color: white;
+            padding: 0.5rem 1rem;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background 0.3s ease;
+        }
+        
+        .price-card a:hover {
+            background: #0056b3;
+        }
+        
+        footer {
+            background: #222;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Шапка -->
+    <header>
+        <h1>FastRbx</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">О нас</a></li>
+                <li><a href="#prices">Цены</a></li>
+                <li><a href="#faq">FAQ</a></li>
+                <li><a href="#contact">Контакты</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Главный блок -->
+    <section id="hero">
+        <h2>Лучшее место для покупки робуксов</h2>
+        <p>Выгодно, быстро и безопасно! Присоединяйтесь к тысячам довольных клиентов.</p>
+        <a href="#prices">Посмотреть цены</a>
+    </section>
+
+    <!-- О нас -->
+    <section id="about">
+        <h2>О нас</h2>
+        <p>Мы - команда профессионалов, которая помогает игрокам Roblox приобретать робуксы по доступным ценам. Мы работаем быстро, предлагаем выгодные акции и гарантируем 100% безопасность ваших транзакций.</p>
+    </section>
+
+    <!-- Цены -->
+    <section id="prices" style="background: #f9f9f9;">
+        <h2>Цены</h2>
+        <div class="price-list">
+            <div class="price-card">
+                <h3>1-30 робуксов</h3>
+                <p>2-60 руб</p>
+                <a href="#contact">Заказать</a></div>
+            <div class="price-card">
+                <h3>31-50 робуксов</h3>
+                <p>61-100 руб</p>
+                <a href="#contact">Заказать</a>
+            </div>
+            <div class="price-card">
+                <h3>51-100 робуксов</h3>
+                <p>101-200 руб</p>
+                <a href="#contact">Заказать</a>
+            </div>
+            <div class="price-card">
+                <h3>101-200 робуксов</h3>
+                <p>201-400 руб</p>
+                <a href="#contact">Заказать</a>
+            </div>
+            <div class="price-card">
+                <h3>201-300 робуксов</h3>
+                <p>401-600 руб</p>
+                <a href="#contact">Заказать</a>
+            </div>
+            <div class="price-card">
+                <h3>301-400 робуксов</h3>
+                <p>601-800 руб</p>
+                <a href="#contact">Заказать</a>
+            </div>
+            <div class="price-card">
+                <h3>401-500 робуксов</h3>
+                <p>801-1000 руб</p>
+                <a href="#contact">Заказать</a>
+            </div>
+            <div class="price-card">
+                <h3>501-600 робуксов</h3>
+                <p>1001-1200 руб</p>
+                <a href="#contact">Заказать</a>
+            </div>
+            <div class="price-card">
+                <h3>601-700 робуксов</h3>
+                <p>1201-1400 руб</p>
+                <a href="#contact">Заказать</a>
+            </div>
+            <div class="price-card">
+                <h3>701-800 робуксов</h3>
+                <p>1401-1600 руб</p>
+                <a href="#contact">Заказать</a>
+            </div>
+            <div class="price-card">
+                <h3>801-900 робуксов</h3>
+                <p>1601-1800 руб</p>
+                <a href="#contact">Заказать</a>
+            </div>
+            <div class="price-card">
+                <h3>901-1000 робуксов</h3>
+                <p>1801-2000 руб</p>
+                <a href="#contact">Заказать</a>
+            </div>
+            <div class="price-card">
+                <h3>1001-1100 робуксов</h3>
+                <p>2001-2200 руб</p>
+                <a href="#contact">Заказать</a>
+            </div>
+            <div class="price-card">
+                <h3>1101-1200 робуксов</h3>
+                <p>2201-2400 руб</p>
+                <a href="#contact">Заказать</a>
+            </div>
+            <div class="price-card">
+                <h3>1201-1300 робуксов</h3>
+                <p>2401-2600 руб</p>
+                <a href="#contact">Заказать</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ -->
+    <section id="faq">
+        <h2>Часто задаваемые вопросы</h2>
+        <div>
+            <h3>Как купить робуксы?</h3>
+            <p>Просто выберите пакет из списка выше, нажмите "Заказать" и свяжитесь с нами через Telegram.</p>
+        </div>
+        <div>
+            <h3>Как быстро я получу робуксы?</h3>
+            <p>Мы доставим ваши робуксы в течение 10-30 минут после оплаты.</p>
+        </div>
+        <div>
+            <h3>Это безопасно?</h3>
+            <p>Да, все транзакции выполняются в соответствии с правилами Roblox. Мы гарантируем полную безопасность.</p>
+        </div>
+    </section>
+
+    <!-- Контакты -->
+    <section id="contact" style="background: #f9f9f9;">
+        <h2>Контакты</h2>
+        <p>Напишите нам в Telegram: <a href="https://t.me/rbxshopzxc" style="color: #007bff;">@FastRbx</a></p>
+    </section>
+
+    <!-- Футер -->
+    <footer>
+        <p>© 2024 FastRbx. Все права защищены.</p>
+    </footer>
+
+</body>
+
+</html>
